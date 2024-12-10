@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fi Money</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Fav Icons  -->
+     <link rel="shortcut icon" href="https://dza2kd7rioahk.cloudfront.net/assets/svgs/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <!-- Top Section  -->
+     <section class="head ">
+        <header class="pt-5 text-center d-flex justify-content-center">
+            <a href="."><img src="https://dza2kd7rioahk.cloudfront.net/assets/svgs/logo.svg" alt="Logo"></a>
+            <ul class="d-flex mt-3 text-light list-none fw-semibold mx-5">
+                <li class="mx-5">ABOUT US</li>
+                <li class="mx-4">CREDIT CARD</li>
+                <li class="mx-4">FEATURES</li>
+                <li class="mx-4">ACCOUNTS</li>
+                <li class="mx-4">RESOURCES</li>
+                <li class="mx-4">HELP</li>
+                <li class="mx-4 "><a href="https://play.google.com/store/apps/details?id=com.epifi.paisa&referrer=af_tranid%3DdSoQpoTGacTfOaDXrnPR2w%26c%3Dweb%26pid%3Dweb%26af_adset%3Dhttps%3A%2F%2Ffi.money%2F"><button class="btn fw-semibold text-light">DOWNLOAD FI</button></a></li>
+            </ul>
+            <button class="btn btn-light fw-semibold mx-5 mt-2 h-75" onclick="bRegister()">Register</button>
+            <button class="btn btn-light fw-semibold mt-2 h-75" onclick="bLogin()">Login</button>
+        </header>
+        <section class="intro d-flex ">
+            <div class="description mx-5">
+                <h1 id="intro-head" class="text-light">For all things money</h1>
+            <h5 class="intro-para">Whether it's planning your savings with a new-age</h5> 
+            <h5 class="intro-para">savings account, investing in mutual funds and high-</h5>
+            <h5 class="intro-para">interest products or tracking your expenses - do it all</h5> 
+            <h5 class="intro-para">on Fi.</h5>
+            <div class="download-img d-flex">
+                <a href="https://play.google.com/store/apps/details?id=com.epifi.paisa&referrer=af_tranid%3DiaLr_nMPtubHT_44UP2DYw%26c%3Dweb%26pid%3Dweb%26af_adset%3Dhttps://fi.money/&pli=1"><img src="https://dza2kd7rioahk.cloudfront.net/assets/logos/play-store_white.png" alt=""></a>
+                <a href="https://apps.apple.com/in/app/fi-money-save-invest-smart/id1531564767?mt=8"><img src="https://dza2kd7rioahk.cloudfront.net/assets/logos/app-store_white.png" alt=""></a>
+            </div>
+            </div>
+                <div class="video1">
+                    <div class="video2">
+                        <video loop playsinline autoplay muted poster="https://dza2kd7rioahk.cloudfront.net/assets/pngs/home-page_poster.png" class="sc-jKDlA-D ikDepp"><source src="https://dza2kd7rioahk.cloudfront.net/assets/videos/home-page_poster.webm" type="video/webm"></video>
+                    </div>
+                </div>
+        </section>
+     </section>
+     <section class="content-2">
+        <h1>Get a savings account</h1>
+        <h1>unlike any other</h1>
+        <div class="part-1 d-flex justify-content-center">
+            <img src="https://dza2kd7rioahk.cloudfront.net/assets/svgs/debit-card-home.svg" alt="" width="620px" height="572px" >
+            <div class="features-1">
+                <p>No minimum balance 🤘</p>
+                <p>Zero Forex on Select Plans✨</p>
+                <p>Withdraw from any ATM 💳</p>
+                <p>No hidden fees 🔎</p>
+                <p>Money insured up to ₹5 lakh ✅</p>
+            </div>
+        </div>
+     </section>
+     <section class="content-2" >
+        <h1>All your bank</h1>
+        <h1>accounts right here</h1>
+        <div class="features-1 text-center mt-2">
+            <p class="my-0">5 bank accounts, 5 apps? Not anymore. Connect your</p>
+            <p class="my-0">other bank accounts to Fi & see all your</p>
+            <p class="my-0">balances/transactions on Fi. It’s super-secured via</p>
+            <p class="my-0">epiFi Wealth, a SEBI-licensed entity — along with</p>
+            <p class="my-0">OneMoney & Finvu</p>
+        </div>
+        <div class="five-in-1 text-center">
+            <video loop playsinline autoplay muted src="./src/5in1-unscreen-ezgif.com-gif-to-mp4-converter.mp4"></video>
+        </div>
+     </section>
+     <section class="content-2">
+        <h1>Many accounts</h1>
+        <h1>One assistant</h1>
+        <div class="features-1 text-center mt-2">
+            <p class="my-0">One bank account for food orders, another for bill</p>
+            <p class="my-0">payments? We get it. Just Ask Fi a question and get</p>
+            <p class="my-0">answers from across all your bank accounts.</p>
+        </div>
+        <div class="transaction text-center mt-0" >
+            <video loop playsinline autoplay muted src="./src/transaction.mp4"></video>
+        </div>
+     </section>
+     <section class="content-2">
+        <h1>You earn rewards for</h1>
+        <h1>saving, imagine!</h1>
+        <div class="features-1 text-center mt-2">
+            <p class="my-0">It’s about time, right? Rewards are a way of</p>
+            <p class="my-0">recognising good financial habits. Win goodies not</p>
+            <p class="my-0">just when you shop, but even when you save.
+            </p>
+        </div>
+        <div class="tree-grow text-center mt-5">
+            <video loop autoplay muted playsinline><source src="https://dza2kd7rioahk.cloudfront.net/assets/videos/home-page_rewards-section.mp4"></video>
+        </div>
+     </section>
+     <section class="content-2 d-flex justify-content-center">
+        <div class="partner-para">
+            <h1 class="my-0 text-start">Fi partners with</h1>
+            <h1 class="my-0 text-start">the best to secure</h1>
+            <h1 class="my-0 text-start">your money</h1>
+            <img src="./src/partners.png" alt="" class="mt-5">
+        </div>
+        <div class="partner-para-2">
+            <p class="mt-4 mb-0">Our partner bank hosts your Savings Account and follows all</p>
+            <p class="mb-4">security standards per applicable regulations.</p>
+            <p class="my-0">Your money is always safe with our banking partner - Federal</p>
+            <p class="my-0">Bank, is covered under the Deposit Insurance and Credit</p>
+            <p class="my-0">Guarantee Corporation Scheme. This insures your money up</p>
+            <p class="my-0">to ₹5 lakh.</p>
+            <p class="mt-4 mb-0">Fi itself is not a bank and doesn’t hold or claim to have a</p>
+            <p>banking license.</p>
+        </div>
+     </section>
+     <footer>
+        <div class="row">
+            <div class="col-2">
+                <ul class="">
+                    <li class="fhead   mt-2 fw-semibold">About us</li>
+                    <li class="  fw-semibold text-light mt-2">WHAT'S FI</li>
+                    <li class="  fw-semibold text-light mt-2">TEAM</li>
+                    <li class="  fw-semibold text-light mt-2">CAREERS</li>
+                    <li class="  fw-semibold text-light mt-2">CONTACT US</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="">
+                    <li class="fhead  mt-2 fw-semibold">Know Your Money</li>
+                    <li class="  fw-semibold text-light mt-2">ASK FI</li>
+                    <li class="  fw-semibold text-light mt-2">CONNECTED ACCOUNTS</li>
+                    <li class=" fw-semibold text-light mt-2">ACCOUNTS</li>
+                    <li class="  mt-5 fw-semibold">Automate</li>
+                    <li class="  fw-semibold text-light mt-2">FIT RULE</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="">
+                    <li class="fhead   mt-2 fw-semibold">Grow Your Money</li>
+                    <li class="  fw-semibold text-light mt-2">MUTUAL FUNDS</li>
+                    <li class="  fw-semibold text-light mt-2">US STOCKS</li>
+                    <li class="  fw-semibold text-light mt-2">JUMP</li>
+                    <li class="  fw-semibold text-light mt-2">DEPOSITS</li>
+                    <li class="  mt-5 fw-semibold">Borrow</li>
+                    <li class="  fw-semibold text-light mt-2">INSTANT LOAN</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="">
+                    <li class="fhead  mt-2 fw-semibold">Rewards</li>
+                    <li class="  fw-semibold text-light mt-2">FI COINS & OFFERS</li>
+                    <li class="fhead mt-5  mt-2 fw-semibold">Accounts</li>
+                    <li class="  fw-semibold text-light mt-2">SALARY PROGRAMS FOR COMPANIES</li>
+                    <li class="  fw-semibold text-light mt-2">SALARY PROGRAM</li>
+                    <li class="  fw-semibold text-light mt-2">INFINITE</li>
+                    <li class="  fw-semibold text-light mt-2">PLUS</li>
+                    <li class="  fw-semibold text-light mt-2">STANDARD</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="">
+                    <li class="fhead  mt-2 fw-semibold">Pay With Fi</li>
+                    <li class="  fw-semibold text-light mt-2">PAYMENTS</li>
+                    <li class="fhead mt-5  mt-2 fw-semibold fw-semibold">Credit Card</li>
+                    <li class="  fw-semibold text-light mt-2">CREDIT CARD</li>
+                    <li class=" fhead mt-5  mt-2 fw-semibold">Resoruces</li>
+                    <li class="fw-semibold text-light mt-2">GUIDES</li>
+                    <li class="fw-semibold text-light mt-2">CALCULATORS</li>
+                    <li class="fw-semibold text-light mt-2">CRASH COURSES</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="">
+                    <li class="fhead   mt-2 fw-semibold">Help</li>
+                    <li class="  fw-semibold text-light mt-2">FAQS</li>
+                    <li class=" fw-semibold text-light mt-2">FEES</li>
+                    <li class="  fw-semibold text-light mt-2">GRIEVANCE REDRESSAL</li>
+                    <li class="  fw-semibold text-light mt-2">KNOW YOUR KYC STATUS</li>
+                </ul>
+            </div>
+        </div>
+
+
+<!-- Social Icons  -->
+ <div class="social">
+    <img src="https://dza2kd7rioahk.cloudfront.net/assets/svgs/logo-footer.svg" alt="">
+    <h4 class="fw-semibold">Contact Fi Money customer care</h4>
+    <div class="contact d-flex">
+        <div class="contact-box">080-47485490</div>
+        <div class="contact-box">help@fi.care</div>
+        <div class="contact-box">In-app chat</div>
+    </div>
+    <a href="https://www.instagram.com/bankonfi" target="_blank" rel="noreferrer"><img height="" width="" src="https://dza2kd7rioahk.cloudfront.net/assets/svgs/instagram-white.svg" alt="instagram" loading="lazy" id="" data-test-id="" class="sc-gsnTZi sc-hKMtZM hVtLvj bRIJNO"></a>
+    <a href="https://www.twitter.com/Bank_on_Fi" target="_blank" rel="noreferrer"><img height="" width="" src="https://dza2kd7rioahk.cloudfront.net/assets/svgs/twitter-white.svg" alt="twitter" loading="lazy" id="" data-test-id="" class="sc-gsnTZi sc-hKMtZM hVtLvj bRIJNO"></a>
+    <a href="https://www.linkedin.com/company/epifi" target="_blank" rel="noreferrer"><img height="" width="" src="https://dza2kd7rioahk.cloudfront.net/assets/svgs/linkedin-white.svg" alt="linkedin" loading="lazy" id="" data-test-id="" class="sc-gsnTZi sc-hKMtZM hVtLvj bRIJNO"></a>
+ </div>
+ <a href="https://fi.money/blog/tnc" target="_blank" rel="noreferrer" class="ms-5 ps-5 me-4 fw-semibold" style="color: aliceblue;">Terms & Conditions</a>
+ <a href="https://fi.money/Fi-Secure" target="_blank" class="me-4 fw-semibold" style="color: aliceblue">Security</a>
+ <a href="https://www.federalbank.co.in/our-commitments" target="_blank" style="color: aliceblue;" class="fw-semibold">Partner Bank Codes & Policies</a>
+     </footer>
+</body>
+</html>

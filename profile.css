@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://amro-asia.org/wp-content/uploads/2023/06/shutterstock_2159961777-The-Bank-Vulnerability-Index-WP-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    backdrop-filter: 10px;
+}
+.row{
+    width: 100%;
+}
+.row .col-6{
+    margin-top: 200px;
+    padding-left: 250px;
+}
+.row .col-6 button{
+    margin-left: 110px;
+    margin-top: 20px;
+}
